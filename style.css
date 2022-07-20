@@ -162,6 +162,15 @@ footer , h2{
     text-align: center;
     font-size: 35px;
 }
+.footer-nav ul{
+    list-style-type: none;
+}
+.footer-nav ul li{
+    list-style: none;
+    /* float: left; */
+    display: inline-block;
+
+}
 .footer-nav a{
     text-decoration: none;
     color: white;
@@ -185,6 +194,7 @@ FOR MOBILE
     body{
         width: 100%;
         margin: 0;
+        padding: 0;
     }
     .section-1{
         width: 100%;
@@ -197,7 +207,7 @@ FOR MOBILE
         padding: 30px;
         text-align: center;
         width: 100%;
-        padding-right: 50px;
+       
 
     }
     .description h1{
@@ -244,5 +254,31 @@ FOR MOBILE
         width: 100%;
     }
 
+
+    footer {
+        background-color: black;
+        
+        padding: 0;
+    }
+    .footer-nav{
+
+    }
+   .footer-nav ul li{
+    display: block;
+   }
+
+   .view-all {
+       margin-top: 40px;
+       /* display: none; */
+       visibility: visible;
+       margin: 0 auto;
+   }
+
+    
+}
+
+
+/* FOR TABLET */
+@media only screen and (min-width:689px) and (max-width:992px) {
     
 }
