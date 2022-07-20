@@ -1,0 +1,176 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    /* margin: 0;
+    padding: 0; */
+}
+
+/* Header section starts  */
+.section-1 {
+    background-color: black;
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 30px;
+    margin-top: 50px;
+
+}
+
+.description {
+    width: 50%;
+    padding: 80px 80px;
+
+}
+
+.description h1 {
+    font-size: 50px;
+    color: white;
+
+
+    line-height: 60px;
+    font-weight: 900;
+
+
+}
+
+.description p {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 20px;
+
+
+}
+
+.description a {
+    background-color: red;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.player-img {
+    width: 50%;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.player-img img {
+    width: 100%;
+}
+
+/* main section */
+
+.main-div {
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    padding-bottom: 100px;
+
+}
+
+.menu {
+    width: 200px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    padding: 15px 30px 30px 30px;
+    border-radius: 20px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    width: 200px;
+
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+
+#blog {
+    color: white;
+    background-color: red;
+}
+
+/* Live match */
+.upcoming-match{
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    
+
+}
+.banner{
+    margin-left: 40px;
+    box-shadow: 3px 3px 3px 3px gray;
+    padding: 40px 20px ;
+    border-radius: 10px;
+}
+.flag{
+    display: flex;
+    align-items: center;
+
+}
+.germany img{
+    width: 65px;
+}
+.unknown img{
+    width: 65px;
+
+}
+.vs{
+    margin: 0 15px;
+    font-weight: bolder;
+    
+}
+.banner-des{
+    text-align: center;
+    margin-top: -20px;
+}
+.banner-des p{
+   
+    margin-top: -20px;
+}
+
+/* Footer starts */
+footer {
+    background-color: black;
+    padding: 50px 150px;
+}
+
+footer,
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.social-icon li {
+    font-size: 10px;
+}
+
+.icon {
+    font-size: 24px;
+    margin-left: 10px;
+    color: white;
+
+}
