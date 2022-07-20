@@ -267,12 +267,7 @@ FOR MOBILE
     display: block;
    }
 
-   .view-all {
-       margin-top: 40px;
-       /* display: none; */
-       visibility: visible;
-       margin: 0 auto;
-   }
+   
 
     
 }
@@ -280,5 +275,46 @@ FOR MOBILE
 
 /* FOR TABLET */
 @media only screen and (min-width:689px) and (max-width:992px) {
+    .section{
+        width: 100%;
+    }
+    .main-div{
+        display: block;
+    }
+    .menu{
+        background-color: white;
+       width: 100%;
+        
+       /* display: flex;
+       justify-content: space-evenly; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .menu a{
+        width: 200px;
+        height: 30px;
+        border: 1px solid gray;
+        
+    }
+    .live-match{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+     }
+    .banner{
+        
+    }
+
+        .view-all {
+            margin-top: 40px;
+            /* display: none; */
+            visibility: visible;
+            margin: 0 auto;
+        }
+    footer{
+        width: 100%;
+    }
+
     
 }
