@@ -54,6 +54,80 @@
     width: 100%;
  }
 
+/* ANIMATION */
+
+.animation h2 {
+    color: black;
+
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    
+}
+.box{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    margin-left: 10px;
+}
+@keyframes loading {
+    0% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: red;
+    }
+
+}
+
+#circle-1 {
+   
+
+    animation: loading 0.7s 0.05s ease infinite forwards;
+
+
+}
+
+#circle-2 {
+    
+
+    animation: loading 0.7s 0.1s ease infinite forwards;
+
+}
+
+#circle-3 {
+   
+    animation: loading 0.7s 0.15s ease infinite forwards;
+
+
+}
+
+#circle-4 {
+   
+    animation: loading 0.7s 0.20s ease infinite forwards;
+
+
+}
+
+#circle-5 {
+    
+    animation: loading 0.7s 0.30s ease infinite forwards;
+
+
+
+}
+
+#circle-6 {
+    
+    animation: loading 0.7s 0.25s ease infinite forwards;
+
+
+}
+
  /* main section */
 
  .main-div{
@@ -101,7 +175,7 @@
      justify-content: space-between;
     row-gap: 40px;
     
-     /* margin-left: 30px; */
+     
 
 
  }
@@ -149,7 +223,7 @@
    position: relative;
    top: 5px;
 }
-
+/* OPTIONAL VIEW ALL BUTTON */
 .view-all{
     margin-top: 40px;
     /* display: none; */
@@ -164,7 +238,9 @@
     border-radius: 5px;
 }
 
+
 /* Footer starts */
+
 footer{
     background-color: black;
     padding: 50px 150px ;
@@ -286,6 +362,8 @@ FOR MOBILE
 
 
 /* FOR TABLET */
+
+
 @media only screen and (min-width:689px) and (max-width:992px) {
     .section{
         width: 100%;
